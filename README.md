@@ -35,3 +35,23 @@ Más información: [Docker MySQL](https://hub.docker.com/_/mysql)
 
 `docker run --rm --name nettools -p 127.0.0.1:2222:22 -itd -v $(pwd)/:/home/  net-tools:1.5.0`
 
+
+## Imagenes
+
+Crear imagen
+
+`docker build -t mi-ubuntu:1.0.0 .`
+
+Crear contenedor
+
+`docker run -itd --rm --name ubuntu-nuevo mi-ubuntu:1.0.0`
+
+Ingresar al contenedor
+
+## Docker Compose
+
+Iniciar contenedores
+
+`docker-compose up `
+
+
